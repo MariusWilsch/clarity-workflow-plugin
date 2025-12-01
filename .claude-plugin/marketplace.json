@@ -1,8 +1,14 @@
 {
+  "name": "clarity-workflow-marketplace",
+  "owner": {
+    "name": "Marius Wilsch",
+    "email": "marius.santiago.wilsch@gmail.com"
+  },
   "plugins": [
     {
       "name": "clarity-workflow",
-      "path": "."
+      "description": "Disambiguation workflow with clarity phases",
+      "source": "."
     }
   ]
 }
