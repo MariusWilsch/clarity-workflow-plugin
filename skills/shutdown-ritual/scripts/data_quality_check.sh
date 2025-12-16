@@ -7,7 +7,7 @@ echo ""
 
 result=$(gh api graphql -f query='{
   repository(owner: "DaveX2001", name: "deliverable-tracking") {
-    issues(first: 100, states: OPEN) {
+    issues(first: 100, states: OPEN, orderBy: {field: CREATED_AT, direction: DESC}) {
       nodes {
         number
         title
