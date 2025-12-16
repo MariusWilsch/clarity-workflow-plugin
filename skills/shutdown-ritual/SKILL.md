@@ -23,7 +23,7 @@ Run `scripts/maker_selection.sh` to display maker items grouped by status.
 
 **Scope:** MariusWilsch only, maker items, excludes CLAUDE-CODE-IMPROVEMENTS and sub-issues.
 
-**Output format:**
+**Output format - YOU MUST preserve exactly:**
 ```
 === REVIEW (n) ===
 #123: Title...
@@ -34,6 +34,8 @@ Run `scripts/maker_selection.sh` to display maker items grouped by status.
 === TO-DO (n) — select max 3 for book ===
 #789: Title...
 ```
+
+**Format enforcement:** Present script output EXACTLY as shown above. No tables, no reformatting, no "summary" versions. Reformatting = user confusion about what matches their board. Every time.
 
 User selects max 3 from TO-DO for tomorrow's physical book.
 
